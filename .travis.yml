@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "7"
+before_script: cd frontend && npm install
+script: jest
+cache:
+  directories:
+  - node_modules # NPM packages

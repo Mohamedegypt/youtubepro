@@ -1,0 +1,1 @@
+DB_URI=mongodb://<username>:<password>@ds115749.mlab.com:15749/digitalnoticeboard

@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
+  "dependencies": {
+    "jest-cli": "^23.0.0-alpha.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "babel-jest": "^23.0.0-alpha.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "jest": "^22.4.2",
+    "react-test-renderer": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "reactstrap": "^5.0.0-beta.3",
+    "react-player": "^1.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "jest": "./node_modules/.bin/jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {}
+}

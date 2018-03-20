@@ -1,0 +1,48 @@
+[
+	{
+		"type": "video", 
+		"title": "The Rabbit and the turle video", 
+		"displayDate": "19.03.2018", 
+		"expiryDate": "01.07.2018",
+		"content": {
+			"youtubeCode": "eofpZPRUnP8",
+			"FIX ME": "you need to cut with slice the code like https://www.youtube.com/watch?v=eofpZPRUnP8 into just the videoID (slice from =v until the end)"
+		}
+	}, {
+		"type": "image",
+		"title": "Startup Trip",
+		"description": "Team work video",
+		"displayDate": "19.03.2018",
+		"expiryDate": "01.07.2018",
+		"imageGallerySrcs":
+				[ "https://pixabay.com/en/background-image-colorful-art-967820/", "https://pixabay.com/en/background-image-colorful-art-967820/", "https://pixabay.com/en/background-image-colorful-art-967820/", "https://pixabay.com/en/background-image-colorful-art-967820/", "https://pixabay.com/en/background-image-colorful-art-967820/", "https://pixabay.com/en/background-image-colorful-art-967820/"
+		]
+	},
+	{
+		"type": "code",
+		"title": "The Rabbit and the turle",
+		"description": "Team work video",
+		"displayDate": "19.03.2018",
+		"expiryDate": "01.07.2018",
+		"content": {
+			"codeImage": "https://pixabay.com/en/background-image-colorful-art-967820/",
+			"authorImage": "https://pixabay.com/en/background-image-colorful-art-967820/",
+			"authorName": "Aemal Surname"
+		}
+	},
+	{
+		"type": "event",
+		"title": "19th of March to 22nd march",
+		"subtitle": "Devugees Project Week",
+		"description": "Team work video",
+		"displayDate": "19.03.2018",
+		"expiryDate": "01.07.2018",
+		"content": {
+			"adress": {
+				"street": "Vulkanstr. 1", 
+				"postal": "11000", 
+				"city": "Berlin"
+			}
+		}
+	}
+]
